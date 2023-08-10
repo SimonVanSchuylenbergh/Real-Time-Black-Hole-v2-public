@@ -2522,12 +2522,14 @@
     "m_PropertyGuids": [
         "53ba8c0d-a934-4e8a-b34c-24eb12e0858d",
         "b249f466-acb1-48fe-b6ce-8c5fe60be36a",
-        "109541dd-d0bf-41fb-a547-31d37b6a0ed3"
+        "109541dd-d0bf-41fb-a547-31d37b6a0ed3",
+        "4d82f3ef-1640-46c9-b96a-871f29f05986"
     ],
     "m_PropertyIds": [
         2073135512,
         -807887481,
-        1364311228
+        1364311228,
+        -1835696321
     ],
     "m_Dropdowns": [],
     "m_DropdownSelectedEntries": []
