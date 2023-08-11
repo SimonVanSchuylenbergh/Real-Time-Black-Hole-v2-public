@@ -2376,7 +2376,7 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "m_SerializedCubemap": "{\"cubemap\":{\"fileID\":8900000,\"guid\":\"ae27b852e579081448bac8ef59d8d0a5\",\"type\":3}}",
+        "m_SerializedCubemap": "{\"cubemap\":{\"fileID\":8900000,\"guid\":\"fabf768d079aa2540a4df5b56be3325e\",\"type\":3}}",
         "m_Guid": ""
     },
     "m_Modifiable": true
