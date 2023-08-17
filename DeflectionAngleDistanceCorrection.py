@@ -82,12 +82,11 @@ for i in range(1, len(r)):
         corrected_delta_phi[i, j] = delta_phi_min
 
 # For every combination of b and r, we calculate alpha and save Delta_phi - alpha
-for j in range(1, len(r)): # rows
-    for i in range(1, len(b)): # columns
+for i in range(1, len(r)): # rows
+    for j in range(1, len(b)): # columns
         if check_valid(b[j] / r[i], b[j]):
-            alpha = calculate_alpha(dy_dx(b[i] / r[j], b[i]), integrate.quad(integrand, 0, b[i] / r[j], (M, b[i]))[0])
-        
-            corrected_delta_phi[j, i] = Delta_phi[i] - alpha
+            alpha = calculate_alpha(dy_dx(b[j] / r[i], b[j]), integrate.quad(integrand, 0, b[j] / r[i], (M, b[j]))[0])
+            corrected_delta_phi[i, j] = Delta_phi[j] - alpha
 
 # ===================================================================================================
 
