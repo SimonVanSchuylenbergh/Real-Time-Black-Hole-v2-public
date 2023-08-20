@@ -114,14 +114,14 @@ cb.outline.set_edgecolor('white')
 plt.setp(plt.getp(cb.ax.axes, 'yticklabels'), color='white')
 
 plt.title("$\\log(\\delta\\phi_{def})$", color='white')
-ax.set_xlabel("$M/b$") # x -> $b/M$ = 5.1962 / x
-ax.set_ylabel("$\\log_{10}(r) / M$") # y -> $\\log_{10}(r)$ = mapRange(y, 0, 1, $\\log_{10}(3)$, 3)
+ax.set_xlabel("$M/b$")
+ax.set_ylabel("$M/r$")
 
 ax.set_xticks([0, 127, 255])
-ax.set_xticklabels([0, "", 5.1962])
+ax.set_xticklabels([0, "", "1/5.1962"])
 
 ax.set_yticks([0, 127, 255])
-ax.set_yticklabels(["$\\log_{10}(3)$", "", 3])
+ax.set_yticklabels([0, "", "1/3"])
 
 ax.xaxis.label.set_color('white')
 ax.yaxis.label.set_color('white')
