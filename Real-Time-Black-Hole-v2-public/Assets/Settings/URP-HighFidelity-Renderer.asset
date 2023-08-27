@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: BlackHolePass
   m_EditorClassIdentifier: 
   m_Active: 1
-  passMaterial: {fileID: -876546973899608171, guid: 729faa9f7a524af488b28b35044f41f7,
-    type: 3}
+  passMaterial: {fileID: 2100000, guid: 23f01d9372876594095122c0cb7983fa, type: 2}
   injectionPoint: 550
   requirements: 4
   passIndex: 0

@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Black Hole Material
-  m_Shader: {fileID: -6465566751694194690, guid: 729faa9f7a524af488b28b35044f41f7,
+  m_Shader: {fileID: -6465566751694194690, guid: 5432f72f584945049bc6643520982ef9,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -28,12 +28,28 @@ Material:
         m_Texture: {fileID: 8900000, guid: fabf768d079aa2540a4df5b56be3325e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_3b0d5a3a4cc94c949ccf4f3618590a20_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: a3fbdba1359b12d4f9b21af8594f4cf7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_91f39f7f7e4742e08c241bbf4a109a38_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 580c3920f8f9ff4449ccf541f2298933, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_9635d001125845f3a1cf6e09321318cb_Texture_1_Texture2D:
         m_Texture: {fileID: 2800000, guid: 6929312cebcc7b9428912a17ae3ea099, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_c47b72af294545f792127dabc46c4f0d_Texture_1_Texture2D:
         m_Texture: {fileID: 2800000, guid: bff5b9c06b7e0fd4b8807260aa9aaa68, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_db7ffdcedc2e469c80013af52f53cb82_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: f07fd4ebe66989046b52be724c193dd5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_fe1809fd12924811ab5d41d95bc1abc8_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: f07fd4ebe66989046b52be724c193dd5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
