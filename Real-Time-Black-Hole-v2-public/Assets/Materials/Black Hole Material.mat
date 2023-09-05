@@ -25,11 +25,19 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Cubemap:
-        m_Texture: {fileID: 8900000, guid: fabf768d079aa2540a4df5b56be3325e, type: 3}
+        m_Texture: {fileID: 8900000, guid: 49551423eec005646b3a390d7fec1236, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_0b6cdacf0f0345a19c6277a04d49101d_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: f07fd4ebe66989046b52be724c193dd5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_3b0d5a3a4cc94c949ccf4f3618590a20_Texture_1_Texture2D:
         m_Texture: {fileID: 2800000, guid: a3fbdba1359b12d4f9b21af8594f4cf7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_8eb9016c16044a0a815051d623256805_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: f07fd4ebe66989046b52be724c193dd5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_91f39f7f7e4742e08c241bbf4a109a38_Texture_1_Texture2D:
@@ -44,12 +52,16 @@ Material:
         m_Texture: {fileID: 2800000, guid: bff5b9c06b7e0fd4b8807260aa9aaa68, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_d7e16502dde24f1b9ec912ec40eda5c0_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 270bff3a8197d044984a0fb7f8102486, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_db7ffdcedc2e469c80013af52f53cb82_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: f07fd4ebe66989046b52be724c193dd5, type: 3}
+        m_Texture: {fileID: 2800000, guid: 270bff3a8197d044984a0fb7f8102486, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_fe1809fd12924811ab5d41d95bc1abc8_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: f07fd4ebe66989046b52be724c193dd5, type: 3}
+        m_Texture: {fileID: 2800000, guid: 270bff3a8197d044984a0fb7f8102486, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -66,7 +78,15 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Brightness: -3.6
     - _Environment_Brightness: 1
+    - _ISCO_Cutoff_Smoothness: 2.55
     - _Mass: 1
+    - _Mass_Accretion: 0.0000001
+    - _Outer_Radius: 50
+    - _Outer_Radius_Falloff: 0.1
+    - _Temperature_Brightness_Influence: 1
+    - _Temperature_Falloff: 0.75
+    - _Test: 0
     m_Colors: []
   m_BuildTextureStacks: []
