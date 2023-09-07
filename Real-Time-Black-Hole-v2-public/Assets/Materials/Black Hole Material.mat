@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Black Hole Material
-  m_Shader: {fileID: -6465566751694194690, guid: 5432f72f584945049bc6643520982ef9,
+  m_Shader: {fileID: -6465566751694194690, guid: 86d3faf66265fc04eaf4c4a03069a5cd,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -25,7 +25,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Cubemap:
-        m_Texture: {fileID: 8900000, guid: 49551423eec005646b3a390d7fec1236, type: 3}
+        m_Texture: {fileID: 8900000, guid: fabf768d079aa2540a4df5b56be3325e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_0b6cdacf0f0345a19c6277a04d49101d_Texture_1_Texture2D:
