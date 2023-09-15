@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Black Hole Material
-  m_Shader: {fileID: -6465566751694194690, guid: 86d3faf66265fc04eaf4c4a03069a5cd,
+  m_Shader: {fileID: -6465566751694194690, guid: 8390e52af69653946ae2d1a4dc20a97d,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -79,14 +79,21 @@ Material:
     m_Ints: []
     m_Floats:
     - _Brightness: -3.6
+    - _Density_Gradient_High: 1
+    - _Density_Gradient_Low: 0.26
+    - _Density_Range_High: 1
+    - _Density_Range_Low: 0.685
     - _Environment_Brightness: 1
     - _ISCO_Cutoff_Smoothness: 2.55
     - _Mass: 1
     - _Mass_Accretion: 0.0000001
     - _Outer_Radius: 50
     - _Outer_Radius_Falloff: 0.1
+    - _Ring_Width: 0.2
+    - _Rotation_Speed: -100
     - _Temperature_Brightness_Influence: 1
     - _Temperature_Falloff: 0.75
     - _Test: 0
+    - _Texture_Scale: 0.05
     m_Colors: []
   m_BuildTextureStacks: []
